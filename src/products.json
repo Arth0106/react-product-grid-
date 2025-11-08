@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Banana",
+    "category": "Fruit",
+    "price": 0.59,
+    "description": "A ripe, sweet yellow banana rich in potassium and fiber.",
+    "image": "https://example.com/images/banana.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Broccoli",
+    "category": "Vegetable",
+    "price": 1.29,
+    "description": "Fresh green broccoli florets packed with vitamins and antioxidants.",
+    "image": "https://example.com/images/broccoli.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Gala Apple",
+    "category": "Fruit",
+    "price": 0.99,
+    "description": "Crisp and juicy Gala apples with a balanced sweet flavor.",
+    "image": "https://example.com/images/gala_apple.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Spinach",
+    "category": "Leafy Green",
+    "price": 2.49,
+    "description": "Tender baby spinach leaves perfect for salads and smoothies.",
+    "image": "https://example.com/images/spinach.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Tomato",
+    "category": "Vegetable",
+    "price": 1.19,
+    "description": "Juicy red tomatoes great for salads, sauces, and sandwiches.",
+    "image": "https://example.com/images/tomato.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Avocado",
+    "category": "Fruit",
+    "price": 1.89,
+    "description": "Creamy Hass avocados rich in healthy fats and nutrients.",
+    "image": "https://example.com/images/avocado.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Carrot",
+    "category": "Vegetable",
+    "price": 0.89,
+    "description": "Crunchy, bright orange carrots full of beta-carotene.",
+    "image": "https://example.com/images/carrot.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Blueberries",
+    "category": "Fruit",
+    "price": 3.49,
+    "description": "Sweet, antioxidant-rich blueberries perfect for snacking or baking.",
+    "image": "https://example.com/images/blueberries.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Cucumber",
+    "category": "Vegetable",
+    "price": 1.09,
+    "description": "Cool, refreshing cucumbers great for salads and hydration.",
+    "image": "https://example.com/images/cucumber.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Strawberries",
+    "category": "Fruit",
+    "price": 3.99,
+    "description": "Fresh, sweet strawberries bursting with flavor and vitamin C.",
+    "image": "https://example.com/images/strawberries.jpg"
+  }
+]
+

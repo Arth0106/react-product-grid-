@@ -5,7 +5,7 @@
     "category": "Fruit",
     "price": 0.59,
     "description": "A ripe, sweet yellow banana rich in potassium and fiber.",
-    "image": "https://example.com/images/banana.jpg"
+    "image": "https://student-arth-patel-bucket.s3.us-east-2.amazonaws.com/pexels-cottonbro-5876154.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "category": "Vegetable",
     "price": 1.29,
     "description": "Fresh green broccoli florets packed with vitamins and antioxidants.",
-    "image": "https://example.com/images/broccoli.jpg"
+    "image": "https://student-arth-patel-bucket.s3.us-east-2.amazonaws.com/pexels-pixabay-47347.jpg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "category": "Fruit",
     "price": 0.99,
     "description": "Crisp and juicy Gala apples with a balanced sweet flavor.",
-    "image": "https://example.com/images/gala_apple.jpg"
+    "image": "https://student-arth-patel-bucket.s3.us-east-2.amazonaws.com/pexels-mali-102104.jpg"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "category": "Leafy Green",
     "price": 2.49,
     "description": "Tender baby spinach leaves perfect for salads and smoothies.",
-    "image": "https://example.com/images/spinach.jpg"
+    "image": "https://student-arth-patel-bucket.s3.us-east-2.amazonaws.com/pexels-jhowell-2325843.jpg"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "category": "Vegetable",
     "price": 1.19,
     "description": "Juicy red tomatoes great for salads, sauces, and sandwiches.",
-    "image": "https://example.com/images/tomato.jpg"
+    "image": "https://student-arth-patel-bucket.s3.us-east-2.amazonaws.com/pexels-pixabay-70746.jpg"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "category": "Fruit",
     "price": 1.89,
     "description": "Creamy Hass avocados rich in healthy fats and nutrients.",
-    "image": "https://example.com/images/avocado.jpg"
+    "image": "https://student-arth-patel-bucket.s3.us-east-2.amazonaws.com/pexels-mali-142890.jpg"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "category": "Vegetable",
     "price": 0.89,
     "description": "Crunchy, bright orange carrots full of beta-carotene.",
-    "image": "https://example.com/images/carrot.jpg"
+    "image": "https://student-arth-patel-bucket.s3.us-east-2.amazonaws.com/pexels-mali-143133.jpg"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "category": "Fruit",
     "price": 3.49,
     "description": "Sweet, antioxidant-rich blueberries perfect for snacking or baking.",
-    "image": "https://example.com/images/blueberries.jpg"
+    "image": "https://student-arth-patel-bucket.s3.us-east-2.amazonaws.com/pexels-veeterzy-70862.jpg"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "category": "Vegetable",
     "price": 1.09,
     "description": "Cool, refreshing cucumbers great for salads and hydration.",
-    "image": "https://example.com/images/cucumber.jpg"
+    "image": "https://student-arth-patel-bucket.s3.us-east-2.amazonaws.com/pexels-lo-422811-2329440.jpg"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "category": "Fruit",
     "price": 3.99,
     "description": "Fresh, sweet strawberries bursting with flavor and vitamin C.",
-    "image": "https://example.com/images/strawberries.jpg"
+    "image": "https://student-arth-patel-bucket.s3.us-east-2.amazonaws.com/pexels-pixabay-70746.jpg"
   }
 ]
 

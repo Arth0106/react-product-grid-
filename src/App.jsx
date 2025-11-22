@@ -35,7 +35,7 @@ function App() {
           </CardContent>
           <CardActions>
             <Button size="small">Add to Cart</Button>
-            <Button size="small">Learn More</Button>
+            <Button size="small">{product.category}</Button>
           </CardActions>
         </Card>
       ))}

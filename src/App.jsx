@@ -10,37 +10,68 @@ import IconButton from '@mui/material/IconButton';
 import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
+import Chip from '@mui/material/Chip';
+import { useState } from 'react';
 import data from "./products.json";
 
 function App() {
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
+  const categories = Array.from(new Set(data.map((p) => p.category)));
+
+  const filtered = selectedCategory
+    ? data.filter((p) => p.category === selectedCategory)
+    : data;
+
   return (
-    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, p: 2 }}>
-      {data.map((product) => (
-        <Card key={product.id} sx={{ maxWidth: 345 }}>
-          <CardMedia
-            sx={{ height: 140 }}
-            image={product.image}
-            title={product.name}
+    <Box sx={{ p: 2 }}>
+      {/* Filter chips (pills) */}
+      <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap', mb: 2 }}>
+        <Chip
+          label="All"
+          clickable
+          key="all"
+          color={selectedCategory === null ? 'primary' : 'default'}
+          variant={selectedCategory === null ? 'filled' : 'outlined'}
+          onClick={() => setSelectedCategory(null)}
+        />
+        {categories.map((cat) => (
+          <Chip
+            label={cat}
+            clickable
+            key={cat}
+            color={selectedCategory === cat ? 'primary' : 'default'}
+            variant={selectedCategory === cat ? 'filled' : 'outlined'}
+            onClick={() => setSelectedCategory(cat)}
           />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              {product.name}
-            </Typography>
-            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-              {product.description}
-            </Typography>
-            <Typography variant="h6" sx={{ mt: 1, color: 'primary.main' }}>
-              ${product.price.toFixed(2)}
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small">Add to Cart</Button>
-            <Button size="small">{product.category}</Button>
-          </CardActions>
-        </Card>
-      ))}
+        ))}
+      </Box>
+
+      {/* Product grid */}
+      <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
+        {filtered.map((product) => (
+          <Card key={product.id} sx={{ maxWidth: 345 }}>
+            <CardMedia sx={{ height: 140 }} image={product.image} title={product.name} />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                {product.name}
+              </Typography>
+              <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                {product.description}
+              </Typography>
+              <Typography variant="h6" sx={{ mt: 1, color: 'primary.main' }}>
+                ${product.price.toFixed(2)}
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="small">Add to Cart</Button>
+              <Button size="small">Learn More</Button>
+            </CardActions>
+          </Card>
+        ))}
+      </Box>
     </Box>
-  )
+  );
 }
 
 export default App
